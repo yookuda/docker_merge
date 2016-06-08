@@ -18,10 +18,10 @@ docker run \
 ```
 - BLAST検索結果ファイルは-outfmt "0" オプションで出力したものを使用する。
 - 出力されるファイルは以下の通り。
-    - <output file prefix>-na.fasta: 検出されたORFごとの塩基配列のmultiple fasta file
-    - <output file prefix>-aa.fasta: 検出されたORFごとのアミノ酸配列のmultiple fasta file
-    - <output file prefix>.annt
-    - <output file prefix>.csv
-    - <output file prefix>.embl
-    - <output file prefix>.gbk
-    - <output file prefix>.gff
+    - &lt;output file prefix&gt;-na.fasta: 検出されたORFごとの塩基配列のmultiple fasta file
+    - &lt;output file prefix&gt;-aa.fasta: 検出されたORFごとのアミノ酸配列のmultiple fasta file
+    - &lt;output file prefix&gt;.annt
+    - &lt;output file prefix&gt;.csv
+    - &lt;output file prefix&gt;.embl
+    - &lt;output file prefix&gt;.gbk
+    - &lt;output file prefix&gt;.gff
